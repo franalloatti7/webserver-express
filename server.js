@@ -3,7 +3,7 @@ const app = express();
 const hbs = require('hbs');
 require('./hbs/helpers');
 
-const port = process.env.port || 3020;
+const port = process.env.PORT || 9000;
 
 
 app.use(express.static(__dirname + '/public'));
